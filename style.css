@@ -1,0 +1,434 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background:linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(images/hairdry.jpg);
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+
+.logo img{
+	width: 100%;
+	height: 100px;
+	border-radius: 50%;
+	margin: 10px 0px;
+}
+
+.menu-bar ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+.menu-bar ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.5s;
+
+}
+
+.menu-bar ul li a:hover {
+	color:  blueviolet;
+}
+
+.icon {
+	color: white;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.two-content {
+       text-align: center;
+       margin-top: 100px;
+}
+
+
+.two-content h1 {
+       font-size: 50px;
+       font-weight: bold;
+       font-style: italic;
+       text-transform: capitalize;
+       color: #a9a9c1;
+}
+
+.content p {
+	margin-top: 10px;
+	font-style: italic;
+	color: whitesmoke;
+}
+
+.content span {
+	color: white;
+}
+
+.two-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+
+}
+
+.find-out {
+        padding-right: 20px;
+
+}
+
+.find-out button {
+	font-size: 15px;
+	padding: 10px 20px;
+	background:  #093154;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	text-transform: capitalize;
+}
+
+.read-more button{
+          font-size: 15px;
+	padding: 10px 20px;
+	background:  #093154;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	text-transform: capitalize;
+}
+
+
+/*---we provide better---*/
+.bgcolor1 {
+	background: linear-gradient(papayawhip, antiquewhite);
+	height: 870px;
+}
+
+.word-img {
+	text-align: center;
+	padding-top: 60px;
+
+}
+
+
+.services img{
+        border-radius: 30px;
+        width: 13%;
+        height: 100px;
+}
+
+.word {
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+
+.four-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	
+
+
+}
+
+.images {
+	flex-basis: 48%;
+	text-align: center;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	color: #FFF;
+	position: relative;
+
+}
+
+.images img {
+	width: 60%;
+	border-radius: 10px;
+	margin-top: 20px;
+	
+}
+
+@media only screen and (max-width: 425px){
+	.four-images{
+		display: block;
+	}
+	.bgcolor1 {
+		height: auto;
+	}
+	.services img {
+		width: 126px;
+		border-radius: 0px;
+		margin-top: -39px;
+	}
+
+	.images {
+		margin-bottom: 0px;
+	}
+}
+@media only screen and (max-width: 768px){
+               .bgcolor1 {
+               	height: auto;
+               }
+}
+
+/*-----visit shop today-----
+*/
+
+.bgcolor2 {
+	background: #4a9595;
+	height: 690px;
+}
+
+.logo-top {
+	text-align: center;
+}
+
+.contact img{
+	width: 12%;
+       height: 80px;
+       padding-top: 20px;	
+}
+
+.visit h1{
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding-top: 15px;
+}
+ 
+
+.div-flex{
+	display: flex;
+	justify-content: space-around;
+
+}
+.opening h1{
+         font-size: 25px;
+         font-weight: bold;
+         text-transform: capitalize;
+         padding-top: 100px;
+}
+
+.clock-content {
+	  display: flex;
+	justify-content: center;
+	padding-top: 10px;
+
+}
+.icons {
+	color: #28395e;
+	font-size: 20px;
+	padding-right: 10px;
+
+}
+
+.weeks1 p{
+       font-style: italic;
+
+}
+
+.text-1 {
+	 display: flex;
+	justify-content: center;
+}
+
+.get-touch h1{
+	font-size: 25px;
+         font-weight: bold;
+         text-transform: capitalize;
+         padding-top: 100px;
+}
+
+.colony p{
+        font-style: italic;
+        padding-right: 10px;
+}
+
+.icons-1 {
+	color: #28395e;
+	font-size: 20px;
+	padding-right: 10px;
+
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	padding-top: 280px;
+}
+
+.facebook {
+	color: #4b4b54;
+	font-size: 30px;
+	padding-right: 10px;
+       
+}
+.instagram {
+	color: #4b4b54;
+	font-size: 30px;
+	padding-right: 10px;
+       
+}
+.twitter {
+	color: #4b4b54;
+	font-size: 30px;
+	padding-right: 10px;
+       
+}
+.youtube{
+	color: #4b4b54;
+	font-size: 30px;
+	padding-right: 10px;
+       
+}
+
+
+
+@media only screen and (max-width: 425px){
+            .contact img {
+            	border-radius: 0px;
+            	width: 100px;
+            	height: 115px;
+
+            }
+
+            .div-flex {
+            	display: block;
+            }
+            .opening h1{
+            	text-align: center;
+            }
+
+           .get-touch h1 {
+           	text-align: center;
+           }
+           .bgcolor2{
+           	height: auto;
+           }
+           .social-media {
+           	    padding-top: 50px;
+           }
+
+
+}
+
+@media only screen and (max-width: 768px){
+               .bgcolor2 {
+               	height: auto;
+               }
+               .social-media{
+               	padding-top: 185px;
+               }
+}
+
+/*----why choose us----
+*/
+.btm-color {
+	background: linear-gradient(#7e657e,#745d46);
+	height: 650px;
+}
+.con-imgs {
+       margin: auto;
+       width: 10%;
+       padding-top: 25px;
+      
+}
+
+
+.img-features img{
+	width: 100%;
+	height: 70px;
+}
+
+
+.choose-us {
+	text-align: center;
+	font-size: 25px;
+	text-transform: capitalize;
+	padding-top: 10px;
+}
+
+.three-flex {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.exp-staff h1 {
+	color: #41047e;
+	text-transform: capitalize;
+	font-size: 25px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	
+}
+
+.icon-flex {
+	display: flex;
+	justify-content: center;
+} 
+
+.icon-cont {
+       color: #28395e;
+       font-size: 20px;
+       border: 2px solid black;
+       padding: 5px 5px;
+       border-radius: 5px;
+}
+
+.text-cont {
+	font-size: 16px;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.one-imgs {
+      width: 25%;
+     
+}
+
+.hair-img img {
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 425px){
+	.three-flex {
+		display: block;
+		padding-top: 30px;
+	}
+	.exp-staff h1 {
+		text-align: center;
+	}
+
+	.hair-img img {
+		display: none;
+	}
+	.btm-color {
+		height: 551px;
+	}
+
+	.con-imgs {
+		width: 90px;
+	}
+
+
+}
+
