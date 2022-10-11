@@ -7,7 +7,7 @@
 header {
 	background:linear-gradient(rgba(0, 0, 0, 0.5),#009688), url(images/hairdry.jpg);
 	background-position: center;
-	height: 100vh;
+	height: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -15,20 +15,22 @@ header {
 .main-header {
 	display: flex;
 	justify-content: space-between;
-	/*align-items: center;*/
+       align-items: center;
+	
 }
 
 .logo img{
 	width: 100%;
 	height: 100px;
 	border-radius: 50%;
-	margin: 10px 0px;
+	padding: 5px 5px;
+	
 }
 
 .menu-bar ul li{
 	display: inline-block;
 	list-style-type: none;
-	margin-top: 25px;
+	
 
 }
 
@@ -46,16 +48,35 @@ header {
 	color:  blueviolet;
 }
 
+.menu-bar ul li::after{
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: orangered;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+}
+
+.menu-bar ul li:hover::after{
+	width: 100%;
+}
+
 .icon {
 	color: white;
 	font-size: 25px;
-	margin-top: 10px;
 	margin-right: 10px;
+	padding: 0px 5px;
+}
+
+.icon:hover {
+	color: blueviolet;
+	transform: scale(1.5);
 }
 
 .two-content {
        text-align: center;
-       margin-top: 100px;
+       margin-top: 200px;
 }
 
 
@@ -68,7 +89,7 @@ header {
 }
 
 .content p {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-style: italic;
 	color: whitesmoke;
 }
@@ -81,12 +102,14 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
-
+	/*margin-top: 70px;
+*/
 }
 
 .find-out {
         padding-right: 20px;
+
+
 
 }
 
@@ -98,7 +121,16 @@ header {
 	border-radius: 5px;
 	color: white;
 	text-transform: capitalize;
+	transition: 0.5s;
+	margin-top: 60px;
 }
+
+.find-out button:hover{
+	background: lightgreen;
+	color: red;
+}
+
+
 
 .read-more button{
           font-size: 15px;
@@ -108,7 +140,27 @@ header {
 	border-radius: 5px;
 	color: white;
 	text-transform: capitalize;
+	transition: 0.5s;
+	margin-top: 60px;
+
 }
+
+.read-more button:hover {
+	background: lightgreen;
+	color: red;
+}
+
+@media only screen and (max-width: 425px){
+            header{
+            	height: auto;
+            }
+            .logo img {
+            	height: 60px;
+            }
+
+}
+
+
 
 
 /*---we provide better---*/
@@ -180,11 +232,11 @@ header {
 		margin-bottom: 0px;
 	}
 }
-@media only screen and (max-width: 768px){
+/*@media only screen and (max-width: 768px){
                .bgcolor1 {
                	height: auto;
                }
-}
+}*/
 
 /*-----visit shop today-----
 */
@@ -312,34 +364,36 @@ header {
             }
             .opening h1{
             	text-align: center;
+            	padding-top: 40px;
             }
 
            .get-touch h1 {
            	text-align: center;
+           	padding-top: 50px;
            }
            .bgcolor2{
            	height: auto;
            }
            .social-media {
-           	    padding-top: 50px;
+           	    padding-top: 60px;
            }
 
 
 }
 
-@media only screen and (max-width: 768px){
+/*@media only screen and (max-width: 768px){
                .bgcolor2 {
                	height: auto;
                }
                .social-media{
-               	padding-top: 185px;
+               	padding-top: auto;
                }
-}
+}*/
 
 /*----why choose us----
 */
 .btm-color {
-	background: linear-gradient(#7e657e,#745d46);
+	background: linear-gradient(#dbccdb,#ebe3dc);
 	height: 650px;
 }
 .con-imgs {
@@ -391,10 +445,11 @@ header {
        border-radius: 5px;
 }
 
-.text-cont {
+.text-cont p{
 	font-size: 16px;
 	font-style: italic;
 	padding-left: 20px;
+	color: #584242;
 }
 
 .one-imgs {
@@ -422,7 +477,7 @@ header {
 		display: none;
 	}
 	.btm-color {
-		height: 551px;
+		height: 560px;
 	}
 
 	.con-imgs {
