@@ -232,11 +232,15 @@ header {
 		margin-bottom: 0px;
 	}
 }
-/*@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
                .bgcolor1 {
                	height: auto;
                }
-}*/
+               .services img{
+               	border-radius: 10px;
+               	width: 25%;
+               }
+}
 
 /*-----visit shop today-----
 */
@@ -381,14 +385,14 @@ header {
 
 }
 
-/*@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
                .bgcolor2 {
                	height: auto;
                }
-               .social-media{
+               /*.social-media{
                	padding-top: auto;
-               }
-}*/
+               }*/
+}
 
 /*----why choose us----
 */
@@ -484,6 +488,31 @@ header {
 		width: 90px;
 	}
 
+}
+
+@media only screen and (max-width: 320px){
+	.btm-color {
+		height: 600px;
+	}
+
+	.img-features img {
+		margin-left: -48px;
+		margin-top: 6px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.img-features img{
+		width: 175px;
+		height: 93px;
+		border-radius: 10px;
+	}
+      .con-imgs {
+      	   width: 25%;
+      	   padding-top: 15px;
+      	   margin: auto;
+      }
 
 }
+
 
